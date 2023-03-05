@@ -6,3 +6,4 @@ os
 random
 faker
 scipy
+aseriouspackage==0.0.2
