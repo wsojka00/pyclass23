@@ -27,11 +27,18 @@ Note that students are expected to choose a project with appropriate difficulty 
 
 ### Project deadlines and presentations
 
-To be discussed / announced.
+Please submit your exam project as a **single .zip file** that contains **all files** (or folders) that are required for your program to run:
+
+- the name of the .zip file should be your last name(s).
+- as a starting point for us, the .zip file has to contain a .ipynb (Jupyter notebook) file with instructions how to use your program. Give it the same name as the exam project (e.g., `exam_conways_game.ipynb`). In addition to the startup instructions, the notebook could contain example code how to use your program.
+- executables (.exe files) are not allowed in the .zip file
+
+When you are done but **no later that March 31, 2023**, drop the .zip file into the `Final exam projects` folder on ILIAS.
+
 
 ### Guidelines for code
 
-- If you choose to write a "traditional" program, the 'core' code must reside within a central function, plus other functions, if needed. This function may be called by a script for the presentation (see below). Please give your central function a telling name, not something like 'main.py'.
+- If you choose to write a 'traditional' program, the 'core' code must reside within a central function, plus other functions, if needed. This function may be called by a script for the presentation (see below). Please give your central function a telling name, not something like 'main.py'.
 - Also if you choose a Jupyter notebook as basis for your project, your program needs to be well-organized into functions.
 - The (central) function shall take input arguments and possibly produce output arguments to make the code versatile. For example, the spike threshold detector would certainly need a data array (or a data file name) and a threshold as inputs and return timestamp lists. Sanity checks of input variables must be performed and some precautionary measures against nonsense input should be taken. Try to catch common errors. 
 - The purpose of the function(s) and the nature of the input and output variables must be well explained in your code (e.g. the size of variables, data type, what kind of data etc.). 
