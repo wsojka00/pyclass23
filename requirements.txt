@@ -2,7 +2,6 @@ numpy
 pandas
 matplotlib
 scikit-learn
-random
 faker
 scipy
 aseriouspackage==0.0.2
