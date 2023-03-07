@@ -1,7 +1,10 @@
-# tipps: use python libararies 
+import random
 
 def num_generator():
-
-	# generate a list of at least 50 random integer 
-
-	return
+    mylist=list()
+    
+    for i in range(0,51):
+        x=random.randint(1,100)
+        mylist.append(x)
+    
+    return mylist

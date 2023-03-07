@@ -1,10 +1,7 @@
 def digit_sum(num):
+    
+    sum = 0
+    for n in str(num):
+        sum += int(digit)
 
-	'''
-	calculate the digit sum of num
-	tipps: 
-	use Modulo operation %, 19%10 -> 9
-	combined with floor division //, 19//10 ->1
-	'''
-
-	return 
+    return sum
