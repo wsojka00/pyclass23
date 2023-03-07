@@ -1,11 +1,15 @@
-def prime_finder(num):
-    primes=list()
-    for i in num:
-        x=0
-        for j in range(1, i):
-            if i%j == 0:
-                x+=1
-        if x==1:
-            return True
-        else:
+def check_prime(num):
+    """Function which determine whether a number is a prime number.
+    
+    Input:
+    num(int): number
+    
+    Output:
+    True or False"""
+    
+    if num < 2:
+        return False
+    for i in range(2,num):
+        if num%i == 0:
             return False
+    return True
